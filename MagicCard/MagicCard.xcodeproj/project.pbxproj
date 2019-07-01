@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1556B27522C5345C000CBB2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1556B27422C5345C000CBB2A /* AppDelegate.swift */; };
+		1556B27722C5345C000CBB2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1556B27622C5345C000CBB2A /* ViewController.swift */; };
+		1556B27A22C5345D000CBB2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1556B27822C5345D000CBB2A /* Main.storyboard */; };
+		1556B27C22C5345E000CBB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1556B27B22C5345E000CBB2A /* Assets.xcassets */; };
+		1556B27F22C5345E000CBB2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1556B27D22C5345E000CBB2A /* LaunchScreen.storyboard */; };
+		1556B28A22C5345E000CBB2A /* MagicCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1556B28922C5345E000CBB2A /* MagicCardTests.swift */; };
+		1556B29522C53753000CBB2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1556B29422C53753000CBB2A /* MainViewController.swift */; };
+		1556B29822C53B12000CBB2A /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1556B29622C53B12000CBB2A /* CardCollectionViewCell.swift */; };
+		1556B29922C53B12000CBB2A /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1556B29722C53B12000CBB2A /* CardCollectionViewCell.xib */; };
+		1592933322C764BB006A9832 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1592933222C764BB006A9832 /* CardData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1556B28622C5345E000CBB2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1556B26922C5345C000CBB2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1556B27022C5345C000CBB2A;
+			remoteInfo = MagicCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1556B27122C5345C000CBB2A /* MagicCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1556B27422C5345C000CBB2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1556B27622C5345C000CBB2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1556B27922C5345D000CBB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1556B27B22C5345E000CBB2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1556B27E22C5345E000CBB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1556B28022C5345E000CBB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1556B28522C5345E000CBB2A /* MagicCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1556B28922C5345E000CBB2A /* MagicCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCardTests.swift; sourceTree = "<group>"; };
+		1556B28B22C5345E000CBB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1556B29422C53753000CBB2A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1556B29622C53B12000CBB2A /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		1556B29722C53B12000CBB2A /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
+		1592933222C764BB006A9832 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1556B26E22C5345C000CBB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1556B28222C5345E000CBB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1556B26822C5345C000CBB2A = {
+			isa = PBXGroup;
+			children = (
+				1556B27322C5345C000CBB2A /* MagicCard */,
+				1556B28822C5345E000CBB2A /* MagicCardTests */,
+				1556B27222C5345C000CBB2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1556B27222C5345C000CBB2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1556B27122C5345C000CBB2A /* MagicCard.app */,
+				1556B28522C5345E000CBB2A /* MagicCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1556B27322C5345C000CBB2A /* MagicCard */ = {
+			isa = PBXGroup;
+			children = (
+				1556B27422C5345C000CBB2A /* AppDelegate.swift */,
+				1556B27622C5345C000CBB2A /* ViewController.swift */,
+				1556B29422C53753000CBB2A /* MainViewController.swift */,
+				1556B27822C5345D000CBB2A /* Main.storyboard */,
+				1556B27B22C5345E000CBB2A /* Assets.xcassets */,
+				1556B27D22C5345E000CBB2A /* LaunchScreen.storyboard */,
+				1556B28022C5345E000CBB2A /* Info.plist */,
+				1556B29622C53B12000CBB2A /* CardCollectionViewCell.swift */,
+				1556B29722C53B12000CBB2A /* CardCollectionViewCell.xib */,
+				1592933222C764BB006A9832 /* CardData.swift */,
+			);
+			path = MagicCard;
+			sourceTree = "<group>";
+		};
+		1556B28822C5345E000CBB2A /* MagicCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				1556B28922C5345E000CBB2A /* MagicCardTests.swift */,
+				1556B28B22C5345E000CBB2A /* Info.plist */,
+			);
+			path = MagicCardTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1556B27022C5345C000CBB2A /* MagicCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1556B28E22C5345E000CBB2A /* Build configuration list for PBXNativeTarget "MagicCard" */;
+			buildPhases = (
+				1556B26D22C5345C000CBB2A /* Sources */,
+				1556B26E22C5345C000CBB2A /* Frameworks */,
+				1556B26F22C5345C000CBB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicCard;
+			productName = MagicCard;
+			productReference = 1556B27122C5345C000CBB2A /* MagicCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1556B28422C5345E000CBB2A /* MagicCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1556B29122C5345E000CBB2A /* Build configuration list for PBXNativeTarget "MagicCardTests" */;
+			buildPhases = (
+				1556B28122C5345E000CBB2A /* Sources */,
+				1556B28222C5345E000CBB2A /* Frameworks */,
+				1556B28322C5345E000CBB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1556B28722C5345E000CBB2A /* PBXTargetDependency */,
+			);
+			name = MagicCardTests;
+			productName = MagicCardTests;
+			productReference = 1556B28522C5345E000CBB2A /* MagicCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1556B26922C5345C000CBB2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Cao Sy Trung";
+				TargetAttributes = {
+					1556B27022C5345C000CBB2A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					1556B28422C5345E000CBB2A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1556B27022C5345C000CBB2A;
+					};
+				};
+			};
+			buildConfigurationList = 1556B26C22C5345C000CBB2A /* Build configuration list for PBXProject "MagicCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1556B26822C5345C000CBB2A;
+			productRefGroup = 1556B27222C5345C000CBB2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1556B27022C5345C000CBB2A /* MagicCard */,
+				1556B28422C5345E000CBB2A /* MagicCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1556B26F22C5345C000CBB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1556B29922C53B12000CBB2A /* CardCollectionViewCell.xib in Resources */,
+				1556B27F22C5345E000CBB2A /* LaunchScreen.storyboard in Resources */,
+				1556B27C22C5345E000CBB2A /* Assets.xcassets in Resources */,
+				1556B27A22C5345D000CBB2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1556B28322C5345E000CBB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1556B26D22C5345C000CBB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1592933322C764BB006A9832 /* CardData.swift in Sources */,
+				1556B29822C53B12000CBB2A /* CardCollectionViewCell.swift in Sources */,
+				1556B29522C53753000CBB2A /* MainViewController.swift in Sources */,
+				1556B27722C5345C000CBB2A /* ViewController.swift in Sources */,
+				1556B27522C5345C000CBB2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1556B28122C5345E000CBB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1556B28A22C5345E000CBB2A /* MagicCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1556B28722C5345E000CBB2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1556B27022C5345C000CBB2A /* MagicCard */;
+			targetProxy = 1556B28622C5345E000CBB2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1556B27822C5345D000CBB2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1556B27922C5345D000CBB2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1556B27D22C5345E000CBB2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1556B27E22C5345E000CBB2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1556B28C22C5345E000CBB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1556B28D22C5345E000CBB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1556B28F22C5345E000CBB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trungcbc.MagicCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1556B29022C5345E000CBB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trungcbc.MagicCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1556B29222C5345E000CBB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trungcbc.MagicCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicCard.app/MagicCard";
+			};
+			name = Debug;
+		};
+		1556B29322C5345E000CBB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trungcbc.MagicCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicCard.app/MagicCard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1556B26C22C5345C000CBB2A /* Build configuration list for PBXProject "MagicCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1556B28C22C5345E000CBB2A /* Debug */,
+				1556B28D22C5345E000CBB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1556B28E22C5345E000CBB2A /* Build configuration list for PBXNativeTarget "MagicCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1556B28F22C5345E000CBB2A /* Debug */,
+				1556B29022C5345E000CBB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1556B29122C5345E000CBB2A /* Build configuration list for PBXNativeTarget "MagicCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1556B29222C5345E000CBB2A /* Debug */,
+				1556B29322C5345E000CBB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1556B26922C5345C000CBB2A /* Project object */;
+}
